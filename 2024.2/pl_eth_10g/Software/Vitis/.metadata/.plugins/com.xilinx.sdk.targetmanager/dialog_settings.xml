@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent JTAG-SMT2NC 210308B75DFD&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-JTAG-SMT2NC-210308B75DFD-24738093-0&quot;,&quot;3&quot;:&quot;jsn-JTAG-SMT2NC-210308B75DFD-5ba00477-0&quot;}}]}"/>
+	<item key="&lt;None&gt;-bitFile" value="/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux/system.bit"/>
+	<item key="&lt;None&gt;-bmmFile" value=""/>
+	<item key="&lt;None&gt;-target" value="Local"/>
+	<item key="&lt;None&gt;-device" value="Auto Detect"/>
+	<item key="&lt;None&gt;-partial_bit" value="false"/>
+	<item key="&lt;None&gt;-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="&lt;None&gt;"/>
+</section>

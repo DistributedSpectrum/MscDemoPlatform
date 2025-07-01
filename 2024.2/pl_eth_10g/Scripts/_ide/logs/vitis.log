@@ -1,0 +1,22 @@
+09:51:15 INFO  : updated workspace path: 
+09:52:40 INFO  : created .gitignore file for the project /home/elya/Public/David/Polyfit3/Polyfit/Workspace
+15:18:34 INFO  : updated workspace path: 
+15:18:34 INFO  : bash, -c, source /home/elya/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//repo.py -st  /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw && deactivate
+15:18:36 INFO  : Successfully created repository data at /tmp/rigel_lopper_elya15398981315973331392
+15:18:36 INFO  : bash, -c, source /home/elya/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_elya9572802661954762669 -r /tmp/rigel_lopper_elya15398981315973331392/.repo.yaml && deactivate
+15:18:36 INFO  : Embedded Template List generated successfully
+15:18:53 INFO  : bash, -c, source /home/elya/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//repo.py -st  /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw && deactivate
+15:18:54 INFO  : Successfully created repository data at /tmp/rigel_lopper_elya12448223613862785611
+15:18:54 INFO  : bash, -c, source /home/elya/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_elya2685987272760471552 -r /tmp/rigel_lopper_elya12448223613862785611/.repo.yaml && deactivate
+15:18:54 INFO  : Embedded Template List generated successfully
+15:19:05 INFO  : bash, -c, source /home/elya/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//repo.py -st  /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw && deactivate
+15:19:05 INFO  : updated workspace path: 
+15:19:06 INFO  : Successfully created repository data at /tmp/rigel_lopper_elya3195700226894013572
+15:19:06 INFO  : bash, -c, source /home/elya/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_elya16350999658253940174 -r /tmp/rigel_lopper_elya3195700226894013572/.repo.yaml && deactivate
+15:19:06 INFO  : Embedded Template List generated successfully
+15:19:06 INFO  : bash, -c, source /home/elya/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//repo.py -st  /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw && deactivate
+15:19:07 INFO  : Successfully created repository data at /tmp/rigel_lopper_elya930276305444244965
+15:19:07 INFO  : bash, -c, source /home/elya/Xilinx/Vitis/2024.2/tps/lnx64/lopper-1.1.0/env/bin/activate && python /home/elya/Xilinx/Vitis/2024.2/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_elya16381465732184153689 -r /tmp/rigel_lopper_elya930276305444244965/.repo.yaml && deactivate
+15:19:08 INFO  : Embedded Template List generated successfully
+15:19:09 INFO  : Terminating Vitis C++ Server
+15:19:09 INFO  : Vitis C++ Server terminated

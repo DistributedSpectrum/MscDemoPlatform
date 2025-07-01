@@ -1,0 +1,22 @@
+menu "user packages " 
+config ethtool  
+	 bool "ethtool"
+	 help
+	
+config gpio-demo  
+	 bool "gpio-demo"
+	 help
+	
+config iperf3  
+	 bool "iperf3"
+	 help
+	
+config peekpoke  
+	 bool "peekpoke"
+	 help
+	
+config phytool  
+	 bool "phytool"
+	 help
+	
+endmenu

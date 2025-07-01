@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:systemproject="http://www.xilinx.com/systemproject" name="initial_zcu102_system" platform="/home/elya/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm" platformUID="xilinx.com:xd:xilinx_zcu102_base_202420_1:202420.1" sysConfig="xilinx_zcu102_base_202420_1" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Emulation-SW" id="com.xilinx.sdx.system.managedbuilder.swemu.configuration.734000269">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="initial_zcu102" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Debug"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.sdx.system.managedbuilder.hwemu.configuration.86554907">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu">
+      <applications name="initial_zcu102" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Debug"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.sdx.system.managedbuilder.hw.configuration.539157477">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="initial_zcu102" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Debug"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

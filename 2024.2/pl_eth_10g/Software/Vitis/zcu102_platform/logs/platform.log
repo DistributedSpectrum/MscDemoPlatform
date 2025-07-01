@@ -1,0 +1,2010 @@
+TRACE::2025-06-04.17:02:32::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:32::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:32::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:32::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:32::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:32::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:32::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-06-04.17:02:37::SCWPlatform::Opened new HwDB with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-06-04.17:02:37::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zcu102_platform"
+		}]
+}
+TRACE::2025-06-04.17:02:37::SCWPlatform::Boot application domains not present, creating them
+TRACE::2025-06-04.17:02:37::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-04.17:02:37::SCWDomain:: Using the QEMU Data from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-06-04.17:02:37::SCWDomain:: Using the QEMU args  from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-06-04.17:02:37::SCWDomain:: Using the PMUQEMU args from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-06-04.17:02:37::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:37::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:37::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:37::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:37::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:37::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:37::SCWPlatform::Boot application domain added for zynqmp_fsbl
+TRACE::2025-06-04.17:02:37::SCWPlatform::Generating the sources  .
+TRACE::2025-06-04.17:02:37::SCWBDomain::Generating boot domain sources.
+TRACE::2025-06-04.17:02:37::SCWBDomain:: Generating the zynqmp_fsbl Application.
+TRACE::2025-06-04.17:02:37::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:37::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:37::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:37::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:37::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-06-04.17:02:37::SCWMssOS::No sw design opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:37::SCWMssOS::mss does not exists at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:37::SCWMssOS::Creating sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:37::SCWMssOS::Adding the swdes entry, created swdb /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss with des name /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:37::SCWMssOS::updating the scw layer changes to swdes at   /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:37::SCWMssOS::Writing mss at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:37::SCWMssOS::Completed writing the mss file at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp
+TRACE::2025-06-04.17:02:37::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-04.17:02:37::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-04.17:02:37::SCWBDomain::Completed writing the mss file at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp
+TRACE::2025-06-04.17:02:39::SCWPlatform::Generating sources Done.
+TRACE::2025-06-04.17:02:39::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-04.17:02:39::SCWDomain:: Using the QEMU Data from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-06-04.17:02:39::SCWDomain:: Using the QEMU args  from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-06-04.17:02:39::SCWDomain:: Using the PMUQEMU args from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-06-04.17:02:39::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:39::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:39::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:39::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:39::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:39::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:39::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:39::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:39::SCWPlatform::Boot application domain added for zynqmp_pmufw
+TRACE::2025-06-04.17:02:39::SCWPlatform::Generating the sources  .
+TRACE::2025-06-04.17:02:39::SCWBDomain::Generating boot domain sources.
+TRACE::2025-06-04.17:02:39::SCWBDomain:: Generating the zynqmp_pmufw Application.
+TRACE::2025-06-04.17:02:39::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:39::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:39::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:39::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:39::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:39::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:39::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:39::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:39::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:39::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:39::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-06-04.17:02:39::SCWMssOS::No sw design opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:39::SCWMssOS::mss does not exists at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:39::SCWMssOS::Creating sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:39::SCWMssOS::Adding the swdes entry, created swdb /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss with des name /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:39::SCWMssOS::updating the scw layer changes to swdes at   /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:39::SCWMssOS::Writing mss at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:39::SCWMssOS::Completed writing the mss file at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp
+TRACE::2025-06-04.17:02:39::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-04.17:02:39::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-06-04.17:02:39::SCWBDomain::Completed writing the mss file at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp
+TRACE::2025-06-04.17:02:41::SCWPlatform::Generating sources Done.
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-06-04.17:02:41::SCWMssOS::No sw design opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::mss exists loading the mss file  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Opened the sw design from mss  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Adding the swdes entry /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss with des name system
+TRACE::2025-06-04.17:02:41::SCWMssOS::updating the scw layer about changes
+TRACE::2025-06-04.17:02:41::SCWMssOS::Opened the sw design.  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::No sw design opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::mss exists loading the mss file  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Opened the sw design from mss  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Adding the swdes entry /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss with des name system_0
+TRACE::2025-06-04.17:02:41::SCWMssOS::updating the scw layer about changes
+TRACE::2025-06-04.17:02:41::SCWMssOS::Opened the sw design.  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"psu_cortexa53_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"zynqmp_pmufw",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynqmp_fsbl",
+					"domainDispName":	"zynqmp_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"psu_cortexa53_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"3c92faf5d1bd1b2b75d5d7bcf1080c59",
+					"compatibleApp":	"zynqmp_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"64-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilsecure:5.4", "xilpm:5.3"],
+					"libOptions":	{
+						"standalone":	{
+							"zynqmp_fsbl_bsp":	"true",
+							"libOptionNames":	["zynqmp_fsbl_bsp"]
+						},
+						"xilffs":	{
+							"read_only":	"true",
+							"use_mkfs":	"false",
+							"libOptionNames":	["read_only", "use_mkfs"]
+						},
+						"xilsecure":	{
+							"tpm_support":	"true",
+							"libOptionNames":	["tpm_support"]
+						},
+						"libsContainingOptions":	["standalone", "xilffs", "xilsecure"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"zynqmp_pmufw",
+					"domainDispName":	"zynqmp_pmufw",
+					"domainDesc":	"PMUFW Application BSP - Auto Generated.",
+					"processors":	"psu_pmu_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"a146941a3cec02f3d0726654f631828a",
+					"compatibleApp":	"zynqmp_pmufw",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilfpga:6.7", "xilsecure:5.4", "xilskey:7.6"],
+					"libOptions":	{
+						"psu_pmu_0":	{
+							"extra_compiler_flags":	"-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects",
+							"libOptionNames":	["extra_compiler_flags"]
+						},
+						"libsContainingOptions":	["psu_pmu_0"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-04.17:02:41::SCWDomain:: Using the QEMU Data from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/
+TRACE::2025-06-04.17:02:41::SCWDomain:: Using the QEMU args  from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/qemu_args.txt
+TRACE::2025-06-04.17:02:41::SCWDomain:: Using the PMUQEMU args from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/pmu_args.txt
+TRACE::2025-06-04.17:02:41::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"psu_cortexa53_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynqmp_fsbl",
+					"domainDispName":	"zynqmp_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"psu_cortexa53_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"3c92faf5d1bd1b2b75d5d7bcf1080c59",
+					"compatibleApp":	"zynqmp_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"64-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilsecure:5.4", "xilpm:5.3"],
+					"libOptions":	{
+						"standalone":	{
+							"zynqmp_fsbl_bsp":	"true",
+							"libOptionNames":	["zynqmp_fsbl_bsp"]
+						},
+						"xilffs":	{
+							"read_only":	"true",
+							"use_mkfs":	"false",
+							"libOptionNames":	["read_only", "use_mkfs"]
+						},
+						"xilsecure":	{
+							"tpm_support":	"true",
+							"libOptionNames":	["tpm_support"]
+						},
+						"libsContainingOptions":	["standalone", "xilffs", "xilsecure"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"zynqmp_pmufw",
+					"domainDispName":	"zynqmp_pmufw",
+					"domainDesc":	"PMUFW Application BSP - Auto Generated.",
+					"processors":	"psu_pmu_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"a146941a3cec02f3d0726654f631828a",
+					"compatibleApp":	"zynqmp_pmufw",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilfpga:6.7", "xilsecure:5.4", "xilskey:7.6"],
+					"libOptions":	{
+						"psu_pmu_0":	{
+							"extra_compiler_flags":	"-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects",
+							"libOptionNames":	["extra_compiler_flags"]
+						},
+						"libsContainingOptions":	["psu_pmu_0"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux_domain",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"psu_cortexa53_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynqmp_fsbl",
+					"domainDispName":	"zynqmp_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"psu_cortexa53_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"3c92faf5d1bd1b2b75d5d7bcf1080c59",
+					"compatibleApp":	"zynqmp_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"64-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilsecure:5.4", "xilpm:5.3"],
+					"libOptions":	{
+						"standalone":	{
+							"zynqmp_fsbl_bsp":	"true",
+							"libOptionNames":	["zynqmp_fsbl_bsp"]
+						},
+						"xilffs":	{
+							"read_only":	"true",
+							"use_mkfs":	"false",
+							"libOptionNames":	["read_only", "use_mkfs"]
+						},
+						"xilsecure":	{
+							"tpm_support":	"true",
+							"libOptionNames":	["tpm_support"]
+						},
+						"libsContainingOptions":	["standalone", "xilffs", "xilsecure"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"zynqmp_pmufw",
+					"domainDispName":	"zynqmp_pmufw",
+					"domainDesc":	"PMUFW Application BSP - Auto Generated.",
+					"processors":	"psu_pmu_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"a146941a3cec02f3d0726654f631828a",
+					"compatibleApp":	"zynqmp_pmufw",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilfpga:6.7", "xilsecure:5.4", "xilskey:7.6"],
+					"libOptions":	{
+						"psu_pmu_0":	{
+							"extra_compiler_flags":	"-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects",
+							"libOptionNames":	["extra_compiler_flags"]
+						},
+						"libsContainingOptions":	["psu_pmu_0"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"psu_cortexa53_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynqmp_fsbl",
+					"domainDispName":	"zynqmp_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"psu_cortexa53_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"3c92faf5d1bd1b2b75d5d7bcf1080c59",
+					"compatibleApp":	"zynqmp_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"64-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilsecure:5.4", "xilpm:5.3"],
+					"libOptions":	{
+						"standalone":	{
+							"zynqmp_fsbl_bsp":	"true",
+							"libOptionNames":	["zynqmp_fsbl_bsp"]
+						},
+						"xilffs":	{
+							"read_only":	"true",
+							"use_mkfs":	"false",
+							"libOptionNames":	["read_only", "use_mkfs"]
+						},
+						"xilsecure":	{
+							"tpm_support":	"true",
+							"libOptionNames":	["tpm_support"]
+						},
+						"libsContainingOptions":	["standalone", "xilffs", "xilsecure"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"zynqmp_pmufw",
+					"domainDispName":	"zynqmp_pmufw",
+					"domainDesc":	"PMUFW Application BSP - Auto Generated.",
+					"processors":	"psu_pmu_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"a146941a3cec02f3d0726654f631828a",
+					"compatibleApp":	"zynqmp_pmufw",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilfpga:6.7", "xilsecure:5.4", "xilskey:7.6"],
+					"libOptions":	{
+						"psu_pmu_0":	{
+							"extra_compiler_flags":	"-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects",
+							"libOptionNames":	["extra_compiler_flags"]
+						},
+						"libsContainingOptions":	["psu_pmu_0"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:41::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:41::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:41::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"psu_cortexa53_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"zynqmp_fsbl",
+					"domainDispName":	"zynqmp_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"psu_cortexa53_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"3c92faf5d1bd1b2b75d5d7bcf1080c59",
+					"compatibleApp":	"zynqmp_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"64-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.3", "xilsecure:5.4", "xilpm:5.3"],
+					"libOptions":	{
+						"standalone":	{
+							"zynqmp_fsbl_bsp":	"true",
+							"libOptionNames":	["zynqmp_fsbl_bsp"]
+						},
+						"xilffs":	{
+							"read_only":	"true",
+							"use_mkfs":	"false",
+							"libOptionNames":	["read_only", "use_mkfs"]
+						},
+						"xilsecure":	{
+							"tpm_support":	"true",
+							"libOptionNames":	["tpm_support"]
+						},
+						"libsContainingOptions":	["standalone", "xilffs", "xilsecure"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"zynqmp_pmufw",
+					"domainDispName":	"zynqmp_pmufw",
+					"domainDesc":	"PMUFW Application BSP - Auto Generated.",
+					"processors":	"psu_pmu_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"9.2",
+					"mssFile":	"",
+					"md5Digest":	"a146941a3cec02f3d0726654f631828a",
+					"compatibleApp":	"zynqmp_pmufw",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilfpga:6.7", "xilsecure:5.4", "xilskey:7.6"],
+					"libOptions":	{
+						"psu_pmu_0":	{
+							"extra_compiler_flags":	"-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns  -Os -flto -ffat-lto-objects",
+							"libOptionNames":	["extra_compiler_flags"]
+						},
+						"libsContainingOptions":	["psu_pmu_0"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-04.17:02:41::SCWPlatform::Clearing the existing platform
+TRACE::2025-06-04.17:02:41::SCWSystem::Clearing the existing sysconfig
+TRACE::2025-06-04.17:02:41::SCWBDomain::clearing the fsbl build
+TRACE::2025-06-04.17:02:41::SCWMssOS::Removing the swdes entry for  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWBDomain::clearing the pmufw build
+TRACE::2025-06-04.17:02:41::SCWMssOS::Removing the swdes entry for  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:41::SCWSystem::Clearing the domains completed.
+TRACE::2025-06-04.17:02:41::SCWPlatform::Clearing the opened hw db.
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform location is /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Removing the HwDB with name /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:41::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:41::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened new HwDB with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWReader::Active system found as  zcu102_platform
+TRACE::2025-06-04.17:02:50::SCWReader::Handling sysconfig zcu102_platform
+TRACE::2025-06-04.17:02:50::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the QEMU Data from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the QEMU args  from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the PMUQEMU args from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWReader::Boot application domain added for zynqmp_fsbl
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-06-04.17:02:50::SCWMssOS::No sw design opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::mss exists loading the mss file  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::Opened the sw design from mss  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::Adding the swdes entry /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss with des name system
+TRACE::2025-06-04.17:02:50::SCWMssOS::updating the scw layer about changes
+TRACE::2025-06-04.17:02:50::SCWMssOS::Opened the sw design.  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS:: library already available in sw design:  xilffs:5.3
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS:: library already available in sw design:  xilsecure:5.4
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS:: library already available in sw design:  xilpm:5.3
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:50::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:50::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:50::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-06-04.17:02:50::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWReader::No isolation master present  
+TRACE::2025-06-04.17:02:50::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the QEMU Data from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the QEMU args  from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/qemu_args.txt
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the PMUQEMU args from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_standalone/qemu/pmu_args.txt
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWReader::Boot application domain added for zynqmp_pmufw
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::No sw design opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::mss exists loading the mss file  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::Opened the sw design from mss  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::Adding the swdes entry /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss with des name system_0
+TRACE::2025-06-04.17:02:50::SCWMssOS::updating the scw layer about changes
+TRACE::2025-06-04.17:02:50::SCWMssOS::Opened the sw design.  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS:: library already available in sw design:  xilfpga:6.7
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS:: library already available in sw design:  xilsecure:5.4
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS:: library already available in sw design:  xilskey:7.6
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::Saving the mss changes /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-06-04.17:02:50::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-06-04.17:02:50::SCWMssOS::Commit changes completed.
+TRACE::2025-06-04.17:02:50::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-06-04.17:02:50::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-04.17:02:50::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-04.17:02:50::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper_1
+TRACE::2025-06-04.17:02:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-04.17:02:50::SCWMssOS::Checking the sw design at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWMssOS::DEBUG:  swdes dump  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss|system||
+/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss|system_0||
+
+TRACE::2025-06-04.17:02:50::SCWMssOS::Sw design exists and opened at  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-04.17:02:50::SCWReader::No isolation master present  
+TRACE::2025-06-04.17:02:50::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the QEMU Data from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the QEMU args  from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/qemu_args.txt
+TRACE::2025-06-04.17:02:50::SCWDomain:: Using the PMUQEMU args from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/pmu_args.txt
+TRACE::2025-06-04.17:02:50::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-06-04.17:02:50::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-06-04.17:02:50::SCWReader::No isolation master present  
+TRACE::2025-06-05.10:12:38::SCWPlatform::removing the boot application domain:  zynqmp_fsbl
+TRACE::2025-06-05.10:12:38::SCWBDomain::clearing the fsbl build
+TRACE::2025-06-05.10:12:38::SCWMssOS::Removing the swdes entry for  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_fsbl/zynqmp_fsbl_bsp/system.mss
+TRACE::2025-06-05.10:12:39::SCWPlatform::removing the boot application domain:  zynqmp_pmufw
+TRACE::2025-06-05.10:12:39::SCWBDomain::clearing the pmufw build
+TRACE::2025-06-05.10:12:39::SCWMssOS::Removing the swdes entry for  /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/zynqmp_pmufw/zynqmp_pmufw_bsp/system.mss
+TRACE::2025-06-05.10:12:39::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-05.10:12:39::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-05.10:13:33::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"fsbl":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux/zynqmp_fsbl.elf",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-05.10:13:33::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"fsbl":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux/zynqmp_fsbl.elf",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-05.10:13:42::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"fsbl":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux/zynqmp_fsbl.elf",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"pmufw":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux/pmufw.elf",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-05.10:13:42::SCWWriter::formatted JSON is {
+	"platformName":	"zcu102_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"zcu102_platform",
+	"platHandOff":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built/pl_eth_10g_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/pl_eth_10g_wrapper.xsa",
+	"deviceType":	"zynqMP",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"true",
+	"fsbl":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux/zynqmp_fsbl.elf",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP      -Wall -fmessage-length=0 -DARMA53_64 -Os -flto -ffat-lto-objects  ",
+	"pmufwExtraCompilerFlags":	"-MMD -MP      -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Os -flto -ffat-lto-objects  ",
+	"pmufw":	"/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux/pmufw.elf",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"zcu102_platform",
+	"systems":	[{
+			"systemName":	"zcu102_platform",
+			"systemDesc":	"zcu102_platform",
+			"sysIsBootAutoGen":	"false",
+			"systemDispName":	"zcu102_platform",
+			"sysActiveDom":	"linux_domain",
+			"sysDefaultDom":	"linux_domain",
+			"domains":	[{
+					"domainName":	"linux_domain",
+					"domainDispName":	"linux on psu_cortexa53",
+					"domainDesc":	"linux_domain",
+					"processors":	"psu_cortexa53",
+					"os":	"linux",
+					"sdxOs":	"linux",
+					"qemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/zcu102_platform/linux_domain/qemu",
+					"pmuQemuArgs":	"<platformDir>/resources/zcu102_platform/linux_domain/pmu_args.txt",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"isLinuxConfigured":	"true",
+					"isBuildFlow":	"false",
+					"arch":	"64-bit",
+					"sysBootDir":	"",
+					"isMicroBlaze":	"false",
+					"bootmode":	"sd",
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-06-30.15:19:34::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-30.15:19:34::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-30.15:19:34::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-30.15:19:34::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-30.15:19:34::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-30.15:19:34::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-30.15:19:34::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-06-30.15:19:40::SCWPlatform::Opened new HwDB with name pl_eth_10g_wrapper
+TRACE::2025-06-30.15:19:40::SCWReader::Active system found as  zcu102_platform
+TRACE::2025-06-30.15:19:40::SCWReader::Handling sysconfig zcu102_platform
+TRACE::2025-06-30.15:19:40::SCWDomain::checking for install qemu data   : 
+TRACE::2025-06-30.15:19:40::SCWDomain:: Using the QEMU Data from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/
+TRACE::2025-06-30.15:19:40::SCWDomain:: Using the QEMU args  from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/qemu_args.txt
+TRACE::2025-06-30.15:19:40::SCWDomain:: Using the PMUQEMU args from install at  : /home/elya/Xilinx/Vitis/2024.2/data/emulation/platforms/zynqmp/sw/a53_linux/qemu/pmu_args.txt
+TRACE::2025-06-30.15:19:40::SCWPlatform::Trying to open the hw design at /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-30.15:19:40::SCWPlatform::DSA given /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-30.15:19:40::SCWPlatform::DSA absoulate path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-30.15:19:40::SCWPlatform::DSA directory /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw
+TRACE::2025-06-30.15:19:40::SCWPlatform:: Platform Path /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/zcu102_platform/hw/pl_eth_10g_wrapper.xsa
+TRACE::2025-06-30.15:19:40::SCWPlatform:: Unique name xilinx:zcu102::0.0
+TRACE::2025-06-30.15:19:40::SCWPlatform::Trying to set the existing hwdb with name pl_eth_10g_wrapper
+TRACE::2025-06-30.15:19:40::SCWPlatform::Opened existing hwdb pl_eth_10g_wrapper
+TRACE::2025-06-30.15:19:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-06-30.15:19:40::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-06-30.15:19:40::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-06-30.15:19:40::SCWReader::No isolation master present  

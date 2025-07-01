@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="scw_hwspec" value="/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pre-built"/>
+	<item key="fsbl" value="/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux"/>
+	<item key="platform_editor" value="/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux"/>
+	<item key="pmu_firmware" value="/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux"/>
+	<item key="sdx_program_fpga_view_bit_bmm_browse_key" value="/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/PetaLinux/images/linux"/>
+</section>

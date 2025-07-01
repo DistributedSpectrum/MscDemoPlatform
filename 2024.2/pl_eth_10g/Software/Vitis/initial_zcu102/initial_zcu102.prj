@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="initial_zcu102" location="/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Software/Vitis/initial_zcu102" platform="/home/elya/Xilinx/Vitis/2024.2/base_platforms/xilinx_zcu102_base_202420_1/xilinx_zcu102_base_202420_1.xpfm" platformUID="xilinx.com:xd:xilinx_zcu102_base_202420_1:202420.1" systemProject="initial_zcu102_system" sysConfig="xilinx_zcu102_base_202420_1" cpu="xrt" cpuInstance="cortex-a53" os="linux">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.linux.exe.debug.514812109" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.linux.exe.release.107944937" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="linux_hello_world"/>
+</sdkproject:SdkProject>

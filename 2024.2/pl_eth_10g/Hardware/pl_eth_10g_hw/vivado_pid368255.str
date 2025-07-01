@@ -1,0 +1,224 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:34:34 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 368255
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Jul 01 10:16:10 EDT 2025
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Ubuntu
+OS Version: 6.8.0-60-generic
+OS Architecture: amd64
+Available processors (cores): 22
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 2256x1504
+Local screen bounds: x = 0, y = 1440, width = 2256, height = 1504
+Screen resolution (DPI): 100
+Available screens: 3
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/home/elya/Xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12
+Java executable: 	/home/elya/Xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	elya
+User home directory: /home/elya
+User working directory: /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/elya/Xilinx/Vivado
+HDI_APPROOT: /home/elya/Xilinx/Vivado/2024.2
+RDI_DATADIR: /home/elya/Xilinx/SharedData/2024.2/data:/home/elya/Xilinx/Vivado/2024.2/data
+RDI_BINDIR: /home/elya/Xilinx/Vivado/2024.2/bin
+
+Vivado preferences file: /home/elya/.Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: /home/elya/.Xilinx/Vivado/2024.2/
+Vivado layouts directory: /home/elya/.Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	/home/elya/Xilinx/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/vivado.log
+Vivado journal file: 	/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-368255-maxwell
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /home/elya/Xilinx/Vivado/2024.2
+RDI_BASEROOT: /home/elya/Xilinx/Vivado
+RDI_BINROOT: /home/elya/Xilinx/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/elya/Xilinx/SharedData/2024.2/data:/home/elya/Xilinx/Vivado/2024.2/data
+RDI_INSTALLROOT: /home/elya/Xilinx
+RDI_INSTALLVER: 2024.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /home/elya/Xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu/22:/home/elya/Xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu:/home/elya/Xilinx/Vivado/2024.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/elya/Xilinx/Vitis/2024.2/bin:/home/elya/Xilinx/Vivado/2024.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/elya/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw:maxwell_1751379355_368215
+RDI_SHARED_DATA: /home/elya/Xilinx/SharedData/2024.2/data
+RDI_TPS_ROOT: /home/elya/Xilinx/Vivado/2024.2/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /home/elya/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: /home/elya/Xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: /home/elya/Xilinx/Vitis/2024.2
+XILINX_PLANAHEAD: /home/elya/Xilinx/Vivado/2024.2
+XILINX_SDK: /home/elya/Xilinx/Vitis/2024.2
+XILINX_VITIS: /home/elya/Xilinx/Vitis/2024.2
+XILINX_VIVADO: /home/elya/Xilinx/Vivado/2024.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,486 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,486 MB. GUI used memory: 72 MB. Current time: 7/1/25, 10:16:11 AM EDT
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.xpr", 5); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// [GUI Memory]: 95 MB (+97316kb) [00:00:14]
+// [Engine Memory]: 1,487 MB (+1407654kb) [00:00:14]
+// Opening Vivado Project: /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.xpr. Version: Vivado v2024.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 111 MB (+11834kb) [00:00:19]
+// [Engine Memory]: 1,671 MB (+115377kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  1719 ms.
+// Tcl Message: open_project /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/elya/Xilinx/Vivado/2024.2/data/ip'. INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994. 
+// [Engine Memory]: 1,757 MB (+2612kb) [00:00:20]
+// [GUI Memory]: 120 MB (+3691kb) [00:00:20]
+// [GUI Memory]: 128 MB (+2052kb) [00:00:20]
+// [GUI Memory]: 148 MB (+14164kb) [00:00:20]
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 7868.625 ; gain = 303.957 ; free physical = 28566 ; free virtual = 37129 
+// Project name: pl_eth_10g; location: /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw; part: xczu9eg-ffvb1156-2-e
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 166 MB (+11022kb) [00:00:26]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pl_eth_10g_wrapper (pl_eth_10g_wrapper.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pl_eth_10g_wrapper (pl_eth_10g_wrapper.v), pl_eth_10g_i : pl_eth_10g (pl_eth_10g.bd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pl_eth_10g_wrapper (pl_eth_10g_wrapper.v), pl_eth_10g_i : pl_eth_10g (pl_eth_10g.bd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pl_eth_10g_wrapper (pl_eth_10g_wrapper.v), pl_eth_10g_i : pl_eth_10g (pl_eth_10g.bd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.srcs/sources_1/bd/pl_eth_10g/pl_eth_10g.bd} 
+// Tcl Message: Reading block design file </home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.srcs/sources_1/bd/pl_eth_10g/pl_eth_10g.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,845 MB. GUI used memory: 87 MB. Current time: 7/1/25, 10:16:36 AM EDT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,846 MB (+446kb) [00:00:35]
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+dismissDialog("Open Block Design"); // bh (Open Block Design Progress)
+// WARNING: HTimer (Open addressing views timer) is taking 309ms to process. Increasing delay to 1300 ms.
+// Elapsed time: 17 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /sfp_tx_dis]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /sfp_tx_dis]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Re-customize IP"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Re-customize IP"); // m (dialog0)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 91 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /xxv_ethernet_0_axis_rx_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 19 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /zups]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /zups]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 132 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /zups/ps_axi_periph]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /zups/ps_axi_periph]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// [GUI Memory]: 176 MB (+1490kb) [00:05:02]
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Re-customize IP"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Re-customize IP"); // m (dialog1)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,899 MB. GUI used memory: 99 MB. Current time: 7/1/25, 10:23:51 AM EDT
+// Elapsed time: 1277 seconds
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /tx_data_fifo]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,899 MB. GUI used memory: 99 MB. Current time: 7/1/25, 10:53:51 AM EDT
+// Elapsed time: 881 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 50 seconds
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_nets /tx_rst_n_Res]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /xxv_ethernet_0_axis_rx_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 654 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aa
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pl_eth_10g_wrapper (pl_eth_10g_wrapper.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pl_eth_10g_wrapper (pl_eth_10g_wrapper.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,950 MB. GUI used memory: 101 MB. Current time: 7/1/25, 11:09:16 AM EDT
+// [Engine Memory]: 1,950 MB (+12916kb) [00:53:16]
+// Elapsed time: 56 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /xxv_ethernet_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /xxv_ethernet_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Configuration", 1); // bd (PAResourceEtoH.HACGCTabbedPane_TABBED_PANE)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel", "Re-customize IP"); // a (RDIResource.BaseDialog_CANCEL)
+dismissDialog("Re-customize IP"); // m (dialog2)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 89 MB. Current time: 7/1/25, 11:39:16 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 84 MB. Current time: 7/1/25, 12:09:16 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 82 MB. Current time: 7/1/25, 12:39:16 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 82 MB. Current time: 7/1/25, 1:09:16 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 82 MB. Current time: 7/1/25, 1:39:16 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,970 MB. GUI used memory: 82 MB. Current time: 7/1/25, 2:09:16 PM EDT
+// Elapsed time: 12290 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,007 MB. GUI used memory: 82 MB. Current time: 7/1/25, 2:35:16 PM EDT
