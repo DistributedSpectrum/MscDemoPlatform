@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.runs/impl_1/pl_eth_10g_wrapper.tcl"
+  variable script "/home/elya/DS/MscDemoPlatform/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.runs/impl_1/pl_eth_10g_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -97,6 +97,7 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
+set_msg_config -id {HDL-1065} -limit 10000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Write Bitstream" START { ROLLUP_AUTO }
@@ -105,10 +106,14 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_param power.BramSDPPropagationFix 1
+  set_param power.enableLutRouteBelPower 1
+  set_param power.enableCarry8RouteBelPower 1
+  set_param power.enableUnconnectedCarry8PinPower 1
   set_param chipscope.maxJobs 5
   set_param runs.launchOptions { -jobs 11  }
   open_checkpoint pl_eth_10g_wrapper_routed.dcp
-  set_property webtalk.parent_dir /home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.cache/wt [current_project]
+  set_property webtalk.parent_dir /home/elya/DS/MscDemoPlatform/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.cache/wt [current_project]
 set_property TOP pl_eth_10g_wrapper [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }

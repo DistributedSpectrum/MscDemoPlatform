@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date             : Wed Jun  4 09:34:26 2025
+| Date             : Thu Aug  7 11:41:47 2025
 | Host             : maxwell running 64-bit Ubuntu 22.04.5 LTS
 | Command          : report_power -file pl_eth_10g_wrapper_power_routed.rpt -pb pl_eth_10g_wrapper_power_summary_routed.pb -rpx pl_eth_10g_wrapper_power_routed.rpx
 | Design           : pl_eth_10g_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 4.142        |
+| Total On-Chip Power (W)  | 4.916        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 3.364        |
-| Device Static (W)        | 0.778        |
+| Dynamic (W)              | 4.132        |
+| Device Static (W)        | 0.784        |
 | Effective TJA (C/W)      | 1.0          |
-| Max Ambient (C)          | 96.0         |
-| Junction Temperature (C) | 29.0         |
+| Max Ambient (C)          | 95.2         |
+| Junction Temperature (C) | 29.8         |
 | Confidence Level         | Medium       |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,25 +52,26 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.139 |       12 |       --- |             --- |
-| CLB Logic                |     0.037 |    50128 |       --- |             --- |
-|   LUT as Logic           |     0.028 |    16295 |    274080 |            5.95 |
-|   Register               |     0.004 |    26749 |    548160 |            4.88 |
-|   LUT as Distributed RAM |     0.002 |      362 |    144000 |            0.25 |
-|   CARRY8                 |     0.001 |      683 |     34260 |            1.99 |
-|   LUT as Shift Register  |     0.001 |      390 |    144000 |            0.27 |
-|   BUFG                   |    <0.001 |        3 |        32 |            9.38 |
-|   Others                 |     0.000 |     1173 |       --- |             --- |
-|   F7/F8 Muxes            |     0.000 |      150 |    274080 |            0.05 |
-| Signals                  |     0.042 |    45173 |       --- |             --- |
-| Block RAM                |     0.067 |      137 |       912 |           15.02 |
+| Clocks                   |     0.247 |       13 |       --- |             --- |
+| CLB Logic                |     0.188 |   107236 |       --- |             --- |
+|   LUT as Logic           |     0.113 |    31338 |    274080 |           11.43 |
+|   LUT as Shift Register  |     0.038 |     3264 |    144000 |            2.27 |
+|   Register               |     0.025 |    56302 |    548160 |           10.27 |
+|   CARRY8                 |     0.010 |     1877 |     34260 |            5.48 |
+|   LUT as Distributed RAM |     0.002 |      382 |    144000 |            0.27 |
+|   BUFG                   |    <0.001 |        7 |        32 |           21.88 |
+|   Others                 |     0.000 |     4254 |       --- |             --- |
+|   F7/F8 Muxes            |     0.000 |      240 |    274080 |            0.09 |
+| Signals                  |     0.257 |    97186 |       --- |             --- |
+| Block RAM                |     0.252 |      276 |       912 |           30.26 |
+| DSPs                     |     0.110 |      208 |      2520 |            8.25 |
 | I/O                      |     0.006 |        1 |       328 |            0.30 |
 | GTH                      |     0.306 |        1 |        24 |            4.17 |
 | PS8                      |     2.767 |        1 |       --- |             --- |
-| Static Power             |     0.778 |          |           |                 |
-|   PS Static              |     0.098 |          |           |                 |
-|   PL Static              |     0.679 |          |           |                 |
-| Total                    |     4.142 |          |           |                 |
+| Static Power             |     0.784 |          |           |                 |
+|   PS Static              |     0.099 |          |           |                 |
+|   PL Static              |     0.685 |          |           |                 |
+| Total                    |     4.916 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -80,10 +81,10 @@ Table of Contents
 +-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source          | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint          |       0.850 |     0.584 |       0.379 |      0.206 |       NA    | Unspecified | NA         |
+| Vccint          |       0.850 |     1.479 |       1.266 |      0.213 |       NA    | Unspecified | NA         |
 | Vccint_io       |       0.850 |     0.037 |       0.001 |      0.036 |       NA    | Unspecified | NA         |
-| Vccbram         |       0.850 |     0.003 |       0.000 |      0.003 |       NA    | Unspecified | NA         |
-| Vccaux          |       1.800 |     0.193 |       0.000 |      0.193 |       NA    | Unspecified | NA         |
+| Vccbram         |       0.850 |     0.019 |       0.016 |      0.003 |       NA    | Unspecified | NA         |
+| Vccaux          |       1.800 |     0.192 |       0.000 |      0.192 |       NA    | Unspecified | NA         |
 | Vccaux_io       |       1.800 |     0.035 |       0.003 |      0.033 |       NA    | Unspecified | NA         |
 | Vcco33          |       3.300 |     0.009 |       0.000 |      0.009 |       NA    | Unspecified | NA         |
 | Vcco25          |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -93,10 +94,10 @@ Table of Contents
 | Vcco12          |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco10          |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccadc          |       1.800 |     0.008 |       0.000 |      0.008 |       NA    | Unspecified | NA         |
-| VCC_PSINTFP     |       0.850 |     1.095 |       1.059 |      0.035 |       NA    | Unspecified | NA         |
+| VCC_PSINTFP     |       0.850 |     1.096 |       1.059 |      0.036 |       NA    | Unspecified | NA         |
 | VCC_PSINTLP     |       0.850 |     0.280 |       0.273 |      0.007 |       NA    | Unspecified | NA         |
 | VPS_MGTRAVCC    |       0.850 |     0.190 |       0.189 |      0.001 |       NA    | Unspecified | NA         |
-| VCC_PSINTFP_DDR |       0.850 |     0.730 |       0.725 |      0.004 |       NA    | Unspecified | NA         |
+| VCC_PSINTFP_DDR |       0.850 |     0.730 |       0.725 |      0.005 |       NA    | Unspecified | NA         |
 | VCC_PSPLL       |       1.200 |     0.073 |       0.071 |      0.002 |       NA    | Unspecified | NA         |
 | VPS_MGTRAVTT    |       1.800 |     0.034 |       0.033 |      0.001 |       NA    | Unspecified | NA         |
 | VCCO_PSDDR_504  |       1.200 |     0.626 |       0.592 |      0.034 |       NA    | Unspecified | NA         |
@@ -151,19 +152,20 @@ Table of Contents
 2.2 Clock Constraints
 ---------------------
 
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| Clock                       | Domain                                                                                                                                                                                                                                                                       | Constraint (ns) |
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-| Net                         | pl_eth_10g_i/xxv_ethernet_0/inst/i_core_gtwiz_userclk_rx_inst_0/rx_clk                                                                                                                                                                                                       |             6.4 |
-| clk_pl_0                    | pl_eth_10g_i/zups/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]                                                                                                                                                                                                                |            10.0 |
-| gt_ref_clk_clk_p            | gt_ref_clk_clk_p                                                                                                                                                                                                                                                             |             6.4 |
-| qpll0clk_in[0]              | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_common_wrapper/pl_eth_10g_xxv_ethernet_0_0_gt_gthe4_common_wrapper_i/common_inst/qpll0clk_in[0]                                                                                                               |             0.2 |
-| qpll0refclk_in[0]           | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_common_wrapper/pl_eth_10g_xxv_ethernet_0_0_gt_gthe4_common_wrapper_i/common_inst/qpll0refclk_in[0]                                                                                                            |             6.4 |
-| rxoutclk_out[0]             | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_gt/inst/gen_gtwizard_gthe4_top.pl_eth_10g_xxv_ethernet_0_0_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[27].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/rxoutclk_out[0]    |             3.2 |
-| rxoutclkpcs_out[0]          | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_gt/inst/gen_gtwizard_gthe4_top.pl_eth_10g_xxv_ethernet_0_0_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[27].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/rxoutclkpcs_out[0] |             3.1 |
-| txoutclk_out[0]             | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_gt/inst/gen_gtwizard_gthe4_top.pl_eth_10g_xxv_ethernet_0_0_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[27].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/txoutclk_out[0]    |             3.2 |
-| xxv_ethernet_0_tx_clk_out_0 | pl_eth_10g_i/xxv_ethernet_0/inst/i_core_gtwiz_userclk_tx_inst_0/tx_clk                                                                                                                                                                                                       |             6.4 |
-+-----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
++-----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| Clock                                                                                               | Domain                                                                                                                                                                                                                                                                       | Constraint (ns) |
++-----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
+| clk                                                                                                 | pl_eth_10g_i/xxv_ethernet_0/inst/i_core_gtwiz_userclk_rx_inst_0/rx_clk                                                                                                                                                                                                       |             6.4 |
+| clk_pl_0                                                                                            | pl_eth_10g_i/zups/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0]                                                                                                                                                                                                                |            10.0 |
+| dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/INTERNAL_TCK | dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/DRCK                                                                                                                                                                                                           |            50.0 |
+| gt_ref_clk_clk_p                                                                                    | gt_ref_clk_clk_p                                                                                                                                                                                                                                                             |             6.4 |
+| qpll0clk_in[0]                                                                                      | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_common_wrapper/pl_eth_10g_xxv_ethernet_0_0_gt_gthe4_common_wrapper_i/common_inst/qpll0clk_in[0]                                                                                                               |             0.2 |
+| qpll0refclk_in[0]                                                                                   | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_common_wrapper/pl_eth_10g_xxv_ethernet_0_0_gt_gthe4_common_wrapper_i/common_inst/qpll0refclk_in[0]                                                                                                            |             6.4 |
+| rxoutclk_out[0]                                                                                     | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_gt/inst/gen_gtwizard_gthe4_top.pl_eth_10g_xxv_ethernet_0_0_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[27].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/rxoutclk_out[0]    |             3.2 |
+| rxoutclkpcs_out[0]                                                                                  | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_gt/inst/gen_gtwizard_gthe4_top.pl_eth_10g_xxv_ethernet_0_0_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[27].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/rxoutclkpcs_out[0] |             3.1 |
+| txoutclk_out[0]                                                                                     | pl_eth_10g_i/xxv_ethernet_0/inst/i_pl_eth_10g_xxv_ethernet_0_0_gt/inst/gen_gtwizard_gthe4_top.pl_eth_10g_xxv_ethernet_0_0_gt_gtwizard_gthe4_inst/gen_gtwizard_gthe4.gen_channel_container[27].gen_enabled_channel.gthe4_channel_wrapper_inst/channel_inst/txoutclk_out[0]    |             3.2 |
+| xxv_ethernet_0_tx_clk_out_0                                                                         | pl_eth_10g_i/xxv_ethernet_0/inst/i_core_gtwiz_userclk_tx_inst_0/tx_clk                                                                                                                                                                                                       |             6.4 |
++-----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
 
 
 3. Detailed Reports
@@ -172,23 +174,30 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+-------------------------+-----------+
-| Name                    | Power (W) |
-+-------------------------+-----------+
-| pl_eth_10g_wrapper      |     3.364 |
-|   pl_eth_10g_i          |     3.364 |
-|     axi_dma_0           |     0.031 |
-|       U0                |     0.031 |
-|     rx_data_fifo        |     0.036 |
-|       inst              |     0.036 |
-|     tx_data_fifo        |     0.033 |
-|       inst              |     0.033 |
-|     xxv_ethernet_0      |     0.459 |
-|       inst              |     0.459 |
-|     zups                |     2.805 |
-|       axi_pl_ps         |     0.020 |
-|       ps_axi_periph     |     0.016 |
-|       zynq_ultra_ps_e_0 |     2.769 |
-+-------------------------+-----------+
++--------------------------+-----------+
+| Name                     | Power (W) |
++--------------------------+-----------+
+| pl_eth_10g_wrapper       |     4.132 |
+|   dbg_hub                |     0.003 |
+|     inst                 |     0.003 |
+|       BSCANID.u_xsdbm_id |     0.003 |
+|   pl_eth_10g_i           |     4.129 |
+|     axi_dma_0            |     0.028 |
+|       U0                 |     0.028 |
+|     ila_0                |     0.013 |
+|       inst               |     0.013 |
+|     rx_data_fifo         |     0.035 |
+|       inst               |     0.035 |
+|     tx_data_fifo         |     0.034 |
+|       inst               |     0.034 |
+|     welch_preprocess_1   |     0.770 |
+|       inst               |     0.770 |
+|     xxv_ethernet_0       |     0.439 |
+|       inst               |     0.439 |
+|     zups                 |     2.809 |
+|       axi_pl_ps          |     0.021 |
+|       ps_axi_periph      |     0.018 |
+|       zynq_ultra_ps_e_0  |     2.769 |
++--------------------------+-----------+
 
 

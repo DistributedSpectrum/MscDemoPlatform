@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2024.2
-| Date         : Wed Jun  4 09:32:00 2025
+| Date         : Thu Aug  7 11:31:12 2025
 | Host         : maxwell
 | Design       : design_1
 | Device       : xczu9eg-ffvb1156-2-E-
@@ -11,8 +11,8 @@ For more information on clockInfo.txt clock routing debug file see https://suppo
 ***********************
 Running Pre-CRP Checker
 ***********************
-Number of global clocks: 5
-	Number of BUFGCE: 0
+Number of global clocks: 6
+	Number of BUFGCE: 1
 	Number of BUFGCE_HDIO: 0
 	Number of BUFG_CTRL: 0
 	Number of BUFGCE_DIV: 0
@@ -24,7 +24,7 @@ Number of global clocks: 5
 		No sub-optimality found
 		No sub-optimality found
 		No sub-optimality found
-	Running suboptimal placement checker for 2 clocks (and their loads) which do not have the CLOCK_LOW_FANOUT property but have a fanout less than 2000...
+	Running suboptimal placement checker for 3 clocks (and their loads) which do not have the CLOCK_LOW_FANOUT property but have a fanout less than 2000...
 Pre-CRP Checker took 0 secs
 
 ********************************
@@ -48,13 +48,18 @@ Clock 3: pl_eth_10g_i/zups/zynq_ultra_ps_e_0/inst/pl_clk0
 	Clock regions with locked loads: X1Y0 X1Y1 X3Y6 
 	initial rect ((0, 0), (3, 6))
 
-Clock 4: pl_eth_10g_i/xxv_ethernet_0/inst/i_core_gtwiz_userclk_rx_inst_0/rxusrclk_in[0]
+Clock 4: dbg_hub/inst/BSCANID.u_xsdbm_id/itck_i
+	Clock source type: BUFGCE
+	Clock source region: X3Y2
+	initial rect ((2, 2), (3, 5))
+
+Clock 5: pl_eth_10g_i/xxv_ethernet_0/inst/i_core_gtwiz_userclk_rx_inst_0/rxusrclk_in[0]
 	Clock source type: BUFG_GT
 	Clock source region: X3Y6
 	Clock regions with locked loads: X3Y6 
 	initial rect ((3, 6), (3, 6))
 
-Clock 5: pl_eth_10g_i/xxv_ethernet_0/inst/i_core_gtwiz_userclk_tx_inst_0/txusrclk_in[0]
+Clock 6: pl_eth_10g_i/xxv_ethernet_0/inst/i_core_gtwiz_userclk_tx_inst_0/txusrclk_in[0]
 	Clock source type: BUFG_GT
 	Clock source region: X3Y6
 	Clock regions with locked loads: X3Y6 

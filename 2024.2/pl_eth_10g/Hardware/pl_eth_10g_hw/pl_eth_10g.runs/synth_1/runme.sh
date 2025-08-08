@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/elya/Public/ZCU102-Ethernet-main/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.runs/synth_1'
+HD_PWD='/home/elya/DS/MscDemoPlatform/2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

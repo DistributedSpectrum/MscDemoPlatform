@@ -433,6 +433,24 @@
                 "TU": "register"
             },
             "V16": {
+                "VT": "AC",
+                "BA": "0x0400000000",
+                "HA": "0x04FFFFFFFF",
+                "BP": "C_BASEADDR",
+                "HP": "C_HIGHADDR",
+                "MA": "Data",
+                "MX": "/zups/zynq_ultra_ps_e_0",
+                "MI": "M_AXI_HPM0_FPD",
+                "MS": "SEG_welch_preprocess_1_reg0",
+                "MV": "xilinx.com:ip:zynq_ultra_ps_e:3.5",
+                "SX": "/welch_preprocess_1",
+                "SI": "cpu",
+                "SS": "reg0",
+                "SV": "distributedsprectrum.com:user:welch_preprocess:1.0",
+                "TM": "both",
+                "TU": "register"
+            },
+            "V17": {
                 "VT": "ACE",
                 "BA": "0xFF000000",
                 "HA": "0xFFFFFFFF",
@@ -451,7 +469,7 @@
                 "TM": "both",
                 "TU": "register"
             },
-            "V17": {
+            "V18": {
                 "VT": "ACE",
                 "BA": "0xFF000000",
                 "HA": "0xFFFFFFFF",
@@ -470,7 +488,7 @@
                 "TM": "both",
                 "TU": "register"
             },
-            "V18": {
+            "V19": {
                 "VT": "ACE",
                 "BA": "0x800000000",
                 "HA": "0x8FFFFFFFF",
@@ -489,7 +507,7 @@
                 "TM": "both",
                 "TU": "memory"
             },
-            "V19": {
+            "V20": {
                 "VT": "ACE",
                 "BA": "0x800000000",
                 "HA": "0x8FFFFFFFF",
@@ -508,7 +526,7 @@
                 "TM": "both",
                 "TU": "memory"
             },
-            "V20": {
+            "V21": {
                 "VT": "ACE",
                 "BA": "0x800000000",
                 "HA": "0x8FFFFFFFF",
@@ -624,6 +642,11 @@
             },
             {
                 "src": "V20",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V21",
                 "trg": "V2",
                 "EH": "2"
             }

@@ -6,3 +6,4 @@ CONFIG_peekpoke
 CONFIG_ethtool
 CONFIG_phytool
 CONFIG_iperf3
+CONFIG_hello-world
