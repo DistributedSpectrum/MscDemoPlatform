@@ -1,0 +1,398 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 mlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11e MIXED_VERSIONS
+!s11f vlog 2025.1 2025.01, Jan 18 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/home/elya/DS/MscDemoPlatform/2024.2/pl_eth_10g/Hardware/welch/tb
+T_opt
+!s110 1753972377
+V^B1mUJ]8en9RclT0fcMiC3
+04 19 4 work welch_preprocess_tb fast 0
+04 4 4 work glbl fast 0
+=24-8cae4cb86bce-688b7e98-55a25-803fe
+R1
+!s12b QBASE25OEM
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L /home/elya/DS/XilinxLibrary/blk_mem_gen_v8_4_9 -L /home/elya/DS/XilinxLibrary/xpm -L /home/elya/DS/XilinxLibrary/fifo_generator_v13_2_11 -suppress 12003
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2025.1;82
+vethernet_filter
+2../ethernet_filter.sv
+Z4 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+!s110 1753972374
+!i10b 1
+!s100 96PhSUlnTE^@nYGCdX4Kb3
+I1<hkaSP9UJZ=?4E_E:BiF0
+S1
+R2
+w1753972361
+8../ethernet_filter.sv
+F../ethernet_filter.sv
+!i122 35
+L0 1 103
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2025.1;82
+r1
+!s85 0
+31
+!s108 1753972374.000000
+!s107 ../ethernet_filter.sv|
+!s90 -reportprogress|300|+acc|../ethernet_filter.sv|
+!i113 0
+Z7 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfft_block
+2fft_block.sv
+R4
+!s110 1753903642
+!i10b 1
+!s100 Z?8ViOCX;THb75L=iBz0O1
+IfeWFgBmU;=T17`1HODfaB1
+S1
+R2
+w1753903635
+8fft_block.sv
+Ffft_block.sv
+!i122 6
+L0 1 22
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753903641.000000
+!s107 fft_block.sv|
+!s90 -reportprogress|300|fft_block.sv|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vglbl
+2/home/elya/Xilinx/Vivado/2024.2/data/verilog/src/glbl.v
+!s110 1753904156
+!i10b 1
+!s100 TL<1YD8i05Z]RjCH=O^Cf3
+I>kCJ<g<YYJ5D2GY4O<NK@2
+R2
+w1724786425
+8/home/elya/Xilinx/Vivado/2024.2/data/verilog/src/glbl.v
+F/home/elya/Xilinx/Vivado/2024.2/data/verilog/src/glbl.v
+!i122 8
+L0 6 78
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753904156.000000
+!s107 /home/elya/Xilinx/Vivado/2024.2/data/verilog/src/glbl.v|
+!s90 -reportprogress|300|/home/elya/Xilinx/Vivado/2024.2/data/verilog/src/glbl.v|
+!i113 0
+R8
+R3
+vila_cpu
+2../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/ila_cpu/sim/ila_cpu.v
+!s110 1753901407
+!i10b 1
+!s100 m6G1EG]Lhan5Z@@@_445O2
+I0[jRFPgCLGBV?@aG;lfnH3
+R2
+w1752514127
+8../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/ila_cpu/sim/ila_cpu.v
+F../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/ila_cpu/sim/ila_cpu.v
+!i122 3
+L0 49 22
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753901407.000000
+!s107 ../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/ila_cpu/sim/ila_cpu.v|
+!s90 -reportprogress|300|../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/ila_cpu/sim/ila_cpu.v|
+!i113 0
+R8
+R3
+viq_mem
+2../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/ip/iq_mem/sim/iq_mem.v
+!s110 1753901184
+!i10b 1
+!s100 e2o;FfJK_G7Ce@WN1oZgE3
+I[4jcNf]QjeJUa^cRB@MYh3
+R2
+w1751476932
+8../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/ip/iq_mem/sim/iq_mem.v
+F../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/ip/iq_mem/sim/iq_mem.v
+!i122 2
+Z9 L0 56 177
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753901184.000000
+!s107 ../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/ip/iq_mem/sim/iq_mem.v|
+!s90 -reportprogress|300|../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/ip/iq_mem/sim/iq_mem.v|
+!i113 0
+R8
+R3
+Xsvlogger_pkg
+Z10 2../ethernet_filter.sv|../svlogger.sv|../svlogger_pkg.sv|../welch_preprocess.sv|../welch_psd.sv|../welch_psd_channel.sv
+R4
+Z11 !s110 1753901044
+!i10b 1
+!s100 aK^N<_4Y<X;C[faB4Xe[@3
+I_>CzUB<FSVTH924lzko9<3
+S1
+R2
+w1740422734
+8../svlogger_pkg.sv
+F../svlogger_pkg.sv
+!i122 1
+L0 6 0
+V_>CzUB<FSVTH924lzko9<3
+R6
+r1
+!s85 0
+31
+Z12 !s108 1753901044.000000
+Z13 !s107 ../welch_psd_channel.sv|../welch_psd.sv|../welch_preprocess.sv|../svlogger_pkg.sv|../svlogger.sv|../ethernet_filter.sv|
+Z14 !s90 -reportprogress|300|../ethernet_filter.sv|../svlogger.sv|../svlogger_pkg.sv|../welch_preprocess.sv|../welch_psd.sv|../welch_psd_channel.sv|
+!i113 0
+R8
+R3
+Xsvlogger_sv_unit
+R10
+R4
+R11
+V5mY[8?[lao9=LAhVRn1]o2
+r1
+!s85 0
+!i10b 1
+!s100 ?HEF8hQPzn[5mCXZIkn0I2
+I5mY[8?[lao9=LAhVRn1]o2
+!i103 1
+S1
+R2
+w1740407046
+8../svlogger.sv
+F../svlogger.sv
+!i122 1
+L0 21 0
+R6
+31
+R12
+R13
+R14
+!i113 0
+R8
+R3
+vwelch_preprocess
+2../welch_preprocess.sv
+R4
+!s110 1753910917
+!i10b 1
+!s100 `hE49agmHLh[_`fa8ET7n0
+I3_B<8N44R98iWR7N>_ml21
+S1
+R2
+w1753910908
+8../welch_preprocess.sv
+F../welch_preprocess.sv
+!i122 25
+L0 1 234
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753910917.000000
+!s107 ../welch_preprocess.sv|
+!s90 -reportprogress|300|+acc|../welch_preprocess.sv|
+!i113 0
+R7
+R3
+vwelch_preprocess_tb
+2welch_preprocess_tb.sv
+R4
+!s110 1753970559
+!i10b 1
+!s100 h^7?NJ:Kd3LHg[?=QHf7;3
+I:3oQXng<nkB?gGX37GViG0
+S1
+R2
+w1753970556
+8welch_preprocess_tb.sv
+Fwelch_preprocess_tb.sv
+!i122 34
+L0 3 91
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753970559.000000
+!s107 welch_preprocess_tb.sv|
+!s90 -reportprogress|300|+acc|welch_preprocess_tb.sv|
+!i113 0
+R7
+R3
+vwelch_psd
+R10
+R4
+Z15 DXx4 work 12 svlogger_pkg 0 22 _>CzUB<FSVTH924lzko9<3
+R11
+!i10b 1
+!s100 M=5[8d@Mhn9nB5Z<]Ho6=0
+I1VZKf6kf5ha`i7Az86AII1
+S1
+R2
+w1752513882
+8../welch_psd.sv
+F../welch_psd.sv
+!i122 1
+L0 4 398
+R5
+R6
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R8
+R3
+vwelch_psd_channel
+R10
+R4
+R15
+R11
+!i10b 1
+!s100 IKRIhlKSdUljDgRRZB]9M1
+I8PlgIc1hlGAZzQmVYLPJ]3
+S1
+R2
+w1742500912
+8../welch_psd_channel.sv
+F../welch_psd_channel.sv
+!i122 1
+L0 4 331
+R5
+R6
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R8
+R3
+vwindow_mem
+2../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/window_mem/sim/window_mem.v
+!s110 1753901455
+!i10b 1
+!s100 Z468?]ARfRAo@APb3GmmA2
+INhGIW9o;<z;6PG3hRMjQE3
+R2
+w1752175501
+8../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/window_mem/sim/window_mem.v
+F../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/window_mem/sim/window_mem.v
+!i122 4
+R9
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753901455.000000
+!s107 ../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/window_mem/sim/window_mem.v|
+!s90 -reportprogress|300|../../../../../2024.2/pl_eth_10g/Hardware/welch_preprocess/welch_preprocess.gen/sources_1/ip/window_mem/sim/window_mem.v|
+!i113 0
+R8
+R3
+vwpc_align_fifo
+2../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/bd/pl_eth_10g/ip/pl_eth_10g_welch_preprocess_0_0/src/wpc_align_fifo/sim/wpc_align_fifo.v
+!s110 1753903751
+!i10b 1
+!s100 UFEGkg@f=LmE4cIhanfCQ0
+IdK3O2?X3fbfnRbe?8ePjN3
+R2
+w1753466256
+8../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/bd/pl_eth_10g/ip/pl_eth_10g_welch_preprocess_0_0/src/wpc_align_fifo/sim/wpc_align_fifo.v
+F../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/bd/pl_eth_10g/ip/pl_eth_10g_welch_preprocess_0_0/src/wpc_align_fifo/sim/wpc_align_fifo.v
+!i122 7
+L0 56 476
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753903751.000000
+!s107 ../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/bd/pl_eth_10g/ip/pl_eth_10g_welch_preprocess_0_0/src/wpc_align_fifo/sim/wpc_align_fifo.v|
+!s90 -reportprogress|300|../../../../../2024.2/pl_eth_10g/Hardware/pl_eth_10g_hw/pl_eth_10g.gen/sources_1/bd/pl_eth_10g/ip/pl_eth_10g_welch_preprocess_0_0/src/wpc_align_fifo/sim/wpc_align_fifo.v|
+!i113 0
+R8
+R3

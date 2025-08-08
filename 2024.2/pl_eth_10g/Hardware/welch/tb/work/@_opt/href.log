@@ -1,0 +1,6 @@
+BEGIN 1:glbl:fast:work
+    GSR :  1:xpm_cdc_single:fast:/home/elya/DS/XilinxLibrary/xpm
+END 
+BEGIN 1:welch_preprocess:fast:work
+    frame_start :  1:welch_preprocess_tb:fast:work
+END 

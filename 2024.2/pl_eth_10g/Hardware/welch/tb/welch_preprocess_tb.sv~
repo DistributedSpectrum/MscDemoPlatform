@@ -1,0 +1,49 @@
+module welch_preprocess_tb();
+
+   logic clk=1'b0;
+   logic resetn=1'b0;
+
+   always
+     #5 clk = !clk;
+   
+   
+   welch_preprocess
+     WP0
+       (
+	.clk(clk),
+	.resetn(resetn),
+	
+	.s_axis_tdata(s_axis_tdata), // 64 bit
+	.s_axis_tkeep(s_axis_tkeep), // 8 bit
+	.s_axis_tlast(s_axis_tlast),
+	.s_axis_tuser(s_axis_tuser),
+	.s_axis_tvalid(s_axis_tvalid),
+
+	.cpu_clk(1'b0),
+	.cpu_awaddr(32'h0),
+	.cpu_awvalid(1'b0),
+	.cpu_awready(),
+	.cpu_wdata(1'b0),
+	.cpu_wvalid(1'b0),
+	.cpu_wready(),
+	.cpu_bresp(),
+	.cpu_bvalid(),
+	.cpu_bready(1'b0),
+	.cpu_araddr(32'h0),
+	.cpu_arvalid(1'b0),
+	.cpu_arready(),
+	.cpu_rdata(),
+	.cpu_rresp(),
+	.cpu_rvalid(),
+	.cpu_rready(1'b0),
+
+	.m_axis_tdata(), //64 bit
+	.m_axis_tkeep(), // 8 bit
+	.m_axis_tlast(),
+	.m_axis_tready(1'b1),
+	.m_axis_tuser(),
+	.m_axis_tvalid());
+
+
+   
+endmodule // welch_preprocess_tb

@@ -1,0 +1,244 @@
+module welch_preprocess
+  (
+   input wire	      clk,
+   input wire	      resetn,
+   
+   input wire [63:0]  s_axis_tdata,
+   input wire [7:0]   s_axis_tkeep,
+   input wire	      s_axis_tlast,
+   //output wire	      s_axis_tready,
+   input wire	      s_axis_tuser,
+   input wire	      s_axis_tvalid,
+
+   input wire	      cpu_clk,
+   input wire [31:0]  cpu_awaddr,
+   input wire	      cpu_awvalid,
+   output wire	      cpu_awready,
+   input wire [31:0]  cpu_wdata,
+   input wire	      cpu_wvalid,
+   output wire	      cpu_wready,
+   output reg [1:0]  cpu_bresp,
+   output reg	      cpu_bvalid,
+   input wire	      cpu_bready,
+   input wire [31:0]  cpu_araddr,
+   input wire	      cpu_arvalid,
+   output wire	      cpu_arready,
+   output reg [31:0] cpu_rdata,
+   output reg [1:0]  cpu_rresp,
+   output reg	      cpu_rvalid,
+   input wire	      cpu_rready,
+
+   output wire [63:0] m_axis_tdata,
+   output wire [7:0]  m_axis_tkeep,
+   output wire	      m_axis_tlast,
+   input wire	      m_axis_tready,
+   output wire	      m_axis_tuser,
+   output wire	      m_axis_tvalid);
+   
+
+   
+   //output wire [31:0] data_out);
+
+   localparam START_ADDR = 12'h804;
+   
+   
+   logic iq_start, iq_end;
+   logic [63:0]	iq_data;
+   logic	iq_data_valid;
+   logic [31:0]	iq_split;
+   
+   logic [12:0]	wr_addr;
+   logic [13:0]	rd_addr;
+   
+   logic [13:0]	last_addr;
+
+   logic	frame_start;
+   logic	frame_start_cdc;
+   
+   logic	psd_done;
+
+   logic	cpu_we;
+
+   assign cpu_wready = 1'b1;
+   assign cpu_arready = 1'b1;
+   assign cpu_awready = 1'b1;
+
+   always @(posedge cpu_clk or negedge resetn) begin
+      if (~resetn) begin
+	 cpu_bresp <= 2'b00;
+	 cpu_bvalid <= 1'b0;
+	 cpu_rresp <= 2'b00;
+	 cpu_rvalid <= 1'b0;
+      end
+      else begin
+	 cpu_bresp <= 2'b00;
+	 cpu_rresp <= 2'b00;
+	 
+	 if (cpu_awvalid == 1'b1) begin
+	    cpu_bresp <= 2'b00;
+	    cpu_bvalid <= 1'b1;
+	 end
+	 else if (cpu_bvalid == 1'b1 && cpu_bready == 1'b1) begin
+	    cpu_bvalid <= 1'b0;
+	 end
+
+	 if (cpu_arvalid == 1'b1) begin
+	    cpu_rresp <= 2'b00;
+	    cpu_rvalid <= 1'b1;
+	 end
+	 else if (cpu_rvalid == 1'b1 && cpu_rready == 1'b1) begin
+	    cpu_rvalid <= 1'b0;
+	 end
+      end
+   end
+
+   always @(posedge cpu_clk or negedge resetn) begin
+      if (~resetn) begin
+	 cpu_rdata <= 'h0;
+      end
+      else begin
+	 if (cpu_arvalid == 1'b1 && cpu_araddr == 32'h0)
+	   cpu_rdata <= 32'hCAFE1234;
+      end
+   end
+   
+   
+   
+   ethernet_filter
+     ETH_FILT0
+       (
+	.clk(clk),
+	.resetn(resetn),
+	.s_axis_tdata(s_axis_tdata),
+	.s_axis_tkeep(s_axis_tkeep),
+	.s_axis_tlast(s_axis_tlast),
+	//.s_axis_tready(s_axis_tready),
+	.s_axis_tready(),
+	.s_axis_tuser(s_axis_tuser),
+	.s_axis_tvalid(s_axis_tvalid),
+
+	.frame_start(iq_start),
+	.frame_end(iq_end),
+	.data_out(iq_data),
+	.data_out_valid(iq_data_valid)
+	);
+   
+   always @(posedge clk or negedge resetn) begin
+      if (~resetn) begin
+	 wr_addr <= 'h0;
+	 last_addr <= 'h0;
+      end
+      else begin
+	 if (iq_end == 1'b1) begin // Maybe f.e.(iq_valid)?
+	    wr_addr <= 'h0;
+	    last_addr <= {wr_addr,1'b0};
+	 end
+	 else if (iq_data_valid == 1'b1)
+	   wr_addr <= wr_addr + 1;
+      end
+   end
+   
+   
+   iq_mem
+     IQ_MEM0
+       (
+	.clka(clk),
+	.ena(1'b1),
+	.wea(iq_data_valid),
+	.addra(wr_addr),
+	.dina(iq_data),
+	
+	.clkb(clk),
+	.addrb(rd_addr),
+	.doutb(iq_split),
+	.enb(1'b1));
+   
+   always @(posedge clk or negedge resetn) begin
+      if (~resetn) begin
+	 rd_addr <= 'h0;
+      end
+      else begin
+	 if (last_addr != 'h0) begin
+	    if (rd_addr <= last_addr)
+	      rd_addr <= rd_addr + 1;
+	    else
+	      rd_addr <= 'h0;
+	 end
+	 else
+	   rd_addr <= 'h0;
+	 
+      end
+   end // always @ (posedge clk or negedge resetn)
+
+   always @(posedge cpu_clk or negedge resetn) begin
+      if (~resetn)
+	frame_start <= 1'b0;
+      else begin
+	 if (cpu_awvalid == 1'b1) begin
+	    if (cpu_awaddr == START_ADDR)
+	      frame_start <= cpu_wdata[0];
+	 end
+      end
+   end
+   
+   xpm_cdc_single
+     XPM0
+       (
+	.src_clk(cpu_clk),
+	.dest_clk(clk),
+	.src_in(frame_start),
+	.dest_out(frame_start_cdc));
+   
+   
+   assign cpu_we = cpu_awvalid == 1'b1 &&
+		   cpu_awaddr[31:11] == 'h0;
+   
+   welch_psd
+     WPSD0
+       (
+	.clk(clk),
+	.reset(~resetn),
+	.data_re_in(iq_split[11:0]),
+	.data_im_in(iq_split[27:16]),
+	
+	.cpu_clk(cpu_clk),
+	.cpu_addr(cpu_awaddr[11:0]),
+	.cpu_data(cpu_wdata[15:0]),
+	.cpu_we(cpu_we),
+
+	.frame_start(frame_start_cdc),
+	.debug_in(1'b0),
+	.psd_done(psd_done),
+	.overlap_samples('d4),
+	.debug_out(),
+
+	.sum_mag_sq(m_axis_tdata[61:0]),
+	.sum_mag_sq_valid(m_axis_tvalid)
+	);
+
+   assign m_axis_tkeep = 'hFF;
+   assign m_axis_tlast = psd_done;
+   assign m_axis_tuser = 1'b0;
+   
+   ila_cpu
+     ILA0
+       (
+	.clk(cpu_clk),
+	.probe0(cpu_araddr),
+	.probe1(cpu_rdata),
+	.probe2(cpu_arvalid),
+	.probe3(cpu_we),
+	.probe4(frame_start));
+
+   ila_cpu
+     ILA1
+       (
+	.clk(clk),
+	.probe0(iq_split),
+	.probe1(32'h0),
+	.probe2(frame_start_cdc),
+	.probe3(psd_done),
+	.probe4(iq_data_valid));
+
+   
+endmodule // welch_preprocess
